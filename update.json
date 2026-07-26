@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.0",
   "update_url": "https://github.com/lovernyi/StarkDynastyHelper/releases/latest",
-  "files_archive_url": "https://raw.githubusercontent.com/lovernyi/StarkDynastyHelper/main/update_files.zip",
+  "files_archive_url": "https://github.com/lovernyi/StarkDynastyHelper/releases/download/v1.0.0/update_files.rar",
   "news_list": [
     {
       "version": "1.0.0",
