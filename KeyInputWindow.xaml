@@ -1,0 +1,20 @@
+﻿<Window x:Class="StarkDynastyHelper.KeyInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stark Helper - Activation" Height="210" Width="380"
+        WindowStyle="None" ResizeMode="NoResize" Background="#07080C"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True">
+
+    <Border BorderBrush="#1E293B" BorderThickness="1" Background="#07080C" CornerRadius="6">
+        <Grid Margin="20">
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="🔑 АКТИВАЦИЯ СИСТЕМЫ" Foreground="#F8FAFC" FontSize="13" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,4"/>
+                <TextBlock Text="Введите ваш персональный ключ доступа Stark:" Foreground="#64748B" FontSize="11" HorizontalAlignment="Center" Margin="0,0,0,14" TextAlignment="Center"/>
+
+                <TextBox x:Name="KeyInputTxt" Height="30" Background="#0B0F19" Foreground="#10B981" BorderBrush="#1E293B" BorderThickness="1" VerticalContentAlignment="Center" Padding="8,0" FontSize="12" HorizontalContentAlignment="Center" Margin="0,0,0,12"/>
+
+                <Button Content="Активировать и войти" Height="32" Background="#131825" Foreground="#F8FAFC" BorderThickness="0" Cursor="Hand" Click="ActivateBtn_Click" FontWeight="SemiBold" FontSize="11"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
