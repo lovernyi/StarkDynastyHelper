@@ -1,13 +1,8 @@
 {
   "keys": [
     {
-      "key": "STARK-1234-ABCD",
-      "expiry_date": "2026-08-15T23:59:59",
-      "is_blocked": false
-    },
-    {
-      "key": "TEST-KEY-5678",
-      "expiry_date": "2026-07-30T12:00:00",
+      "key": "TEST-1234-5678-ABCD",
+      "expiry_date": "2026-08-05T12:00:00",
       "is_blocked": false
     }
   ]
