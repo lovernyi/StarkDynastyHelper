@@ -1,6 +1,14 @@
 {
-  "valid_keys": [
-    "P9RB-OW1S-XAC6-9VYX",
-    "SWAI-IU8G-WUIJ-RBTU"
+  "keys": [
+    {
+      "key": "STARK-1234-ABCD",
+      "expiry_date": "2026-08-15T23:59:59",
+      "is_blocked": false
+    },
+    {
+      "key": "TEST-KEY-5678",
+      "expiry_date": "2026-07-30T12:00:00",
+      "is_blocked": false
+    }
   ]
 }
